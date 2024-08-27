@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { animated, useSpring } from '@react-spring/web'
-import gll from "./assets/photu.jpg"
+import gll from "./assets/photu.png"
 import CardWrapper from './Cards'
 
 function App({ active, setActive }) {
