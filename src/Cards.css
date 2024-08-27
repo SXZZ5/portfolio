@@ -1,0 +1,34 @@
+.card {
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 2.5px;
+    margin: 15px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    
+    background: rgb(250, 255, 254);
+    /* background: linear-gradient(90deg, rgba(250, 255, 254, 1) 0%, rgba(0, 255, 149, 1) 50%, rgba(255, 255, 255, 1) 100%); */
+
+    background: linear-gradient(90deg, rgba(250, 255, 254, 1) 0%, rgba(239, 245, 66, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    
+
+}
+
+.card__content {
+
+    background-color: #655d72;
+    background-image: linear-gradient(147deg, #655d72 0%, #898196 74%);
+
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+
+.card__glass {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
